@@ -17,7 +17,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtBienvenida2">
 
         <RadioButton
-            android:id="@+id/cbIntensa"
+            android:id="@+id/cbMenu3"
             android:layout_width="@dimen/btnLargo"
             android:layout_height="wrap_content"
             android:text="@string/Mujer"
@@ -25,7 +25,7 @@
             android:textSize="16sp" />
 
         <RadioButton
-            android:id="@+id/cbModerada"
+            android:id="@+id/cbMenu2"
             android:layout_width="@dimen/btnLargo"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"

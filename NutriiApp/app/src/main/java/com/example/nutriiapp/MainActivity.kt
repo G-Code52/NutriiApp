@@ -39,8 +39,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         edtNombre = findViewById(R.id.edtNombre)
         edtFechaNacimiento = findViewById(R.id.edtFechaNacimiento)
         edtNumCel = findViewById(R.id.edtNumCel)
-        rHombre = findViewById(R.id.cbModerada)
-        rMujer = findViewById(R.id.cbIntensa)
+        rHombre = findViewById(R.id.cbMenu2)
+        rMujer = findViewById(R.id.cbMenu3)
         btnContinuar = findViewById(R.id.btnContinuar)
 
         btnContinuar!!.setOnClickListener(this)

@@ -24,9 +24,9 @@ class ThirdActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_third)
 
-        cbLigera = findViewById(R.id.cbLigera)
-        cbModerada = findViewById(R.id.cbModerada)
-        cbIntensa = findViewById(R.id.cbIntensa)
+        cbLigera = findViewById(R.id.cbMenu1)
+        cbModerada = findViewById(R.id.cbMenu2)
+        cbIntensa = findViewById(R.id.cbMenu3)
 
         btnContinuar3 = findViewById(R.id.btnContinuar3)
         btnContinuar3!!.setOnClickListener(this)

@@ -52,7 +52,7 @@ class FourthActivity : AppCompatActivity(), View.OnClickListener {
             Toast.makeText(this, "Datos Guardados", Toast.LENGTH_SHORT).show()
 
             val packageName = "com.example.nutriiapp"
-            val className = "com.example.nutriiapp.MainMenuActivity"
+            val className = "com.example.nutriiapp.LastCuestionaryActivity"
 
             intent.setClassName(packageName, className)
             startActivity(intent)
